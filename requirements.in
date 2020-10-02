@@ -1,1 +1,3 @@
 beautifulsoup4
+selenium
+autopep8 # dev-dependency for auto-formatting

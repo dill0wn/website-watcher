@@ -4,12 +4,31 @@
 #
 #    pip-compile --generate-hashes
 #
+autopep8==1.5.4 \
+    --hash=sha256:d21d3901cb0da6ebd1e83fc9b0dfbde8b46afc2ede4fe32fbda0c7c6118ca094 \
+    # via -r requirements.in
 beautifulsoup4==4.9.2 \
     --hash=sha256:1edf5e39f3a5bc6e38b235b369128416c7239b34f692acccececb040233032a1 \
     --hash=sha256:5dfe44f8fddc89ac5453f02659d3ab1668f2c0d9684839f0785037e8c6d9ac8d \
     --hash=sha256:645d833a828722357038299b7f6879940c11dddd95b900fe5387c258b72bb883 \
     # via -r requirements.in
+pycodestyle==2.6.0 \
+    --hash=sha256:2295e7b2f6b5bd100585ebcb1f616591b652db8a741695b3d8f5d28bdc934367 \
+    --hash=sha256:c58a7d2815e0e8d7972bf1803331fb0152f867bd89adf8a01dfd55085434192e \
+    # via autopep8
+selenium==3.141.0 \
+    --hash=sha256:2d7131d7bc5a5b99a2d9b04aaf2612c411b03b8ca1b1ee8d3de5845a9be2cb3c \
+    --hash=sha256:deaf32b60ad91a4611b98d8002757f29e6f2c2d5fcaf202e1c9ad06d6772300d \
+    # via -r requirements.in
 soupsieve==2.0.1 \
     --hash=sha256:1634eea42ab371d3d346309b93df7870a88610f0725d47528be902a0d95ecc55 \
     --hash=sha256:a59dc181727e95d25f781f0eb4fd1825ff45590ec8ff49eadfd7f1a537cc0232 \
     # via beautifulsoup4
+toml==0.10.1 \
+    --hash=sha256:926b612be1e5ce0634a2ca03470f95169cf16f939018233a670519cb4ac58b0f \
+    --hash=sha256:bda89d5935c2eac546d648028b9901107a595863cb36bae0c73ac804a9b4ce88 \
+    # via autopep8
+urllib3==1.25.10 \
+    --hash=sha256:91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a \
+    --hash=sha256:e7983572181f5e1522d9c98453462384ee92a0be7fac5f1413a1e35c56cc0461 \
+    # via selenium
